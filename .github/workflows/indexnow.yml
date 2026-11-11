@@ -1,0 +1,28 @@
+name: IndexNow Auto Submit
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'sitemap.xml'
+      - '*.html'
+      - 'articles/**'
+  workflow_dispatch:
+
+jobs:
+  indexnow:
+    name: Submit URLs to IndexNow
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Push Sitemap URLs to IndexNow
+        run: node scripts/push-indexnow.js
+
