@@ -1,13 +1,8 @@
-name: IndexNow Auto Submit
+﻿name: IndexNow Auto Submit
 
 on:
   push:
-    branches:
-      - main
-    paths:
-      - 'sitemap.xml'
-      - '*.html'
-      - 'articles/**'
+    branches: [ main ]
   workflow_dispatch:
 
 jobs:
