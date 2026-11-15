@@ -8,3 +8,4 @@ echo.
 node "%~dp0scripts\push-indexnow.js"
 echo.
 pause
+
