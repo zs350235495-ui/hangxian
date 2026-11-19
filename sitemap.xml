@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
         <loc>https://hangxianyinhang.com/index.html</loc>
-        <lastmod>2026-11-11</lastmod>
+        <lastmod>2026-11-19</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
@@ -32,7 +32,7 @@
     </url>
     <url>
         <loc>https://hangxianyinhang.com/articles/index.html</loc>
-        <lastmod>2026-11-11</lastmod>
+        <lastmod>2026-11-19</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
@@ -117,6 +117,12 @@
   <url>
     <loc>https://hangxianyinhang.com/articles/cross-border-bgp-anycast-routing-mtr-benchmark-2026.html</loc>
     <lastmod>2026-11-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://hangxianyinhang.com/articles/2026-airport-ladder-campus-enterprise-guide.html</loc>
+    <lastmod>2026-11-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
